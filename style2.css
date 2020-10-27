@@ -1,0 +1,264 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	background-color: #FFFAF6;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	overflow-y: auto;
+}
+.name{
+	font-size: 100px;
+	width: 100vw;
+	height: 110px;
+	font-family: 'Sigmar One', cursive;
+	position: absolute;
+	top: calc(50% - 55px);
+	text-align: center;
+	z-index: 99;
+}
+.name:hover{
+	text-decoration: underline;
+}
+.content{
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 43%;
+	font-size: 20px;
+	font-family: 'Indie Flower', cursive;
+}
+#c1{
+	width: 170px;
+	height: 170px;
+	border-radius: 170px;
+	position: absolute;
+	background-color: #FE6866;
+	top: 65%;
+	right: 35%;
+}
+#c1:hover{
+	background: rgb(254,104,102);
+background: radial-gradient(circle, rgba(254,104,102,0.65) 0%, rgba(254,104,102,0.15) 100%);
+width: 190px;
+height: 190px;
+border-radius: 190px;
+}
+#c2{
+	width: 180px;
+	height: 180px;
+	border-radius: 180px;
+	position: absolute;
+	left: 5%;
+	top: 25%;
+	background-color: #9ED3FF;
+}
+#c2:hover{
+	background: rgb(158,211,255);
+	background: radial-gradient(circle, rgba(158,211,255,0.6404936974789917) 0%, rgba(158,211,255,0.15029761904761907) 100%);
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+}
+#c3{
+	width: 250px;
+	height: 250px;
+	border-radius: 250px;
+	position: absolute;
+	right: 7%;
+	top: 5%;
+	background-color: #FFE99E ;
+}
+#c3:hover{
+	background: rgb(255,233,158);
+background: radial-gradient(circle, rgba(255,233,158,0.65) 0%, rgba(255,233,158,0.15) 100%);
+width: 270px;
+height: 270px;
+border-radius: 270px;
+}
+#c4{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	position: absolute;
+	right: 30%;
+	top: 6%;
+	background-color: #B0F1D6;
+}
+#c5{
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	position: absolute;
+	left: 5%;
+	bottom: 10%;
+	background-color: #FFE99E ;
+}
+#c6{
+	width: 30px;
+	height: 30px;
+	border: 6px solid #B0F1D6;
+	border-radius: 50px;
+	position: absolute;
+	left: 25%;
+	top: 35%;
+}
+#c7{
+	width: 80px;
+	height: 80px;
+	border: 6px solid #9ED3FF;
+	border-radius: 80px;
+	position: absolute;
+	top: 80%;
+	right: 10%;
+}
+#bg1{
+	background-color: #9ED3FF;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	overflow-y: auto;
+}
+.card{
+	background-color: #FFFAF6;
+	width: 60%;
+	height: 80vh;
+	overflow-y: auto;
+	position: absolute;
+	top: 100px;
+	left: calc(50% - 30%);
+}
+.title1{
+	color: #FFFAF6;
+	font-family: 'Sigmar One', cursive;
+	font-size: 60px;
+	width: 60%;
+	height: 100px;
+	position: absolute;
+	left: calc(50% - 30%);
+	text-align: center;
+}
+a.title1:hover{
+	background-color: #FFFAF6;
+	color: #84C1F3;
+}
+#description{
+	font-family: 'Indie Flower', cursive;
+	font-size: 22px;
+	line-height: 40px;
+	color: #84C1F3;
+	padding: 120px;
+}
+#bg2{
+	background-color: #FE6866;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	overflow-y: auto;
+}
+#title2{
+	color: #FFFAF6;
+	font-family: 'Sigmar One', cursive;
+	font-size: 60px;
+	width: 60%;
+	height: 100px;
+	position: absolute;
+	left: calc(50% - 30%);
+	text-align: center;
+}
+a#title2:hover{
+	background-color: #FFFAF6;
+	color: #FE6866;
+}
+#rules{
+	font-family: 'Indie Flower', cursive;
+	font-size: 22px;
+	line-height: 40px;
+	color: #FE6866;
+	padding: 55px;
+}
+#bg3{
+	background-color: #FFDF72;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	overflow-y: auto;
+}
+.title3{
+	color: #FFFAF6;
+	font-family: 'Sigmar One', cursive;
+	font-size: 60px;
+	width: 60%;
+	height: 100px;
+	position: absolute;
+	left: calc(50% - 30%);
+	text-align: center;
+}
+a.title3:hover{
+	background-color: #FFFAF6;
+	color: #FFDF72;
+}
+#rewards{
+	font-family: 'Indie Flower', cursive;
+	font-size: 22px;
+	line-height: 40px;
+	color: #FFDF72;
+	padding: 110px;
+}
+#bg4{
+	background-color: #FFFAF6;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	overflow-y: auto;
+}
+.title4{
+	color: #A9DEC7;
+	font-family: 'Sigmar One', cursive;
+	font-size: 60px;
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	left: calc(50% - 50%);
+	text-align: center;
+}
+a.title4:hover{
+	background-color: #C4FDE5;
+	color: #FFFAF6;
+}
+#how{
+	font-family: 'Indie Flower', cursive;
+	font-size: 22px;
+	line-height: 40px;
+	color: #A9DEC7;
+	position: absolute;
+	top: 120px;
+	left: 80px;
+	width: 40%;
+	height: 100%;
+	overflow-y: auto;
+}
+.sketch{
+	position: absolute;
+	width: 400px;
+	height: auto;
+	border: 3px solid black;
+	border-radius: 5px;
+	right: 80px;
+	top: 200px;
+}
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+@media screen and (max-width: 900px) {
+	.sketch{
+		width: 30%;
+		height: auto;}
+
+
+}
